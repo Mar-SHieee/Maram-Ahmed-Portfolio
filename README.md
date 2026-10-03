@@ -1,27 +1,53 @@
-# Maram Ahmed Portfolio (React + Vite)
+# Maram Ahmed | Portfolio
 
-## التشغيل على جهازك
-```
+Personal portfolio of **Maram Ahmed**, Machine Learning Engineer and Data Science student at the Faculty of Computers and Data Science, Alexandria University.
+
+It shows what I build: machine learning models, ML apps and IoT systems, from raw data to something people can actually use.
+
+**Live site:** _add your Vercel link here_
+
+## What's inside
+
+- **About:** who I am and what I offer, in one sentence and two short paragraphs.
+- **Education:** B.Sc. in Data Science, Alexandria University.
+- **Skills:** grouped into tabs (Machine Learning, Deep Learning & NLP, Programming & Math, MLOps & Tools, Mobile & IoT).
+- **Experience & training:** DEPI Microsoft Machine Learning Engineer track, Tech Trek Academy, IoT software development training.
+- **Offered services:** ML models, data analysis, ML apps and APIs, mobile and IoT prototypes.
+- **Projects:** filterable cards with screenshots, demo video and GitHub links.
+- **Contact:** a form that opens a ready-to-send email, plus WhatsApp, LinkedIn and GitHub.
+
+## Featured projects
+
+| Project | Type | Stack |
+| --- | --- | --- |
+| [Heart Disease Risk Predictor](https://github.com/Mar-SHieee/Heart-Disease-Risk-Predictor) | ML | Python, Scikit-learn, SHAP, Streamlit |
+| [Customer Rating Prediction](https://github.com/Mar-SHieee/Customer-Rating-Prediction) | ML | Python, Pandas, Scikit-learn |
+| [Enterprise AI Data Analyst](https://github.com/Mar-SHieee/Enterprise-AI-Data-Analyst) | App | Python, Streamlit, Docker, Spark, RAG |
+| [Kitchen Safety IoT System](https://github.com/Mar-SHieee/Kitchen-Safety) | IoT | Flutter, Supabase, MQTT, ESP32 |
+
+## Features
+
+- Animated neural-network banner that reacts to the cursor.
+- Smooth scrolling single page with a sticky navigation bar.
+- Project cards with an image gallery, expandable details and category filters.
+- Responsive layout for desktop and mobile.
+- Respects reduced-motion settings.
+
+## Built with
+
+React 19, Vite, Motion, plain CSS. Deployed on Vercel.
+
+## Run locally
+
+```bash
 npm install
-npm run dev      # يفتح على http://localhost:5173
+npm run dev
 ```
 
-## أعدّل فين؟
-| عاوزة أغيّر | الملف |
-|---|---|
-| اسمي، الإيميل، اللينكات، نبذة عني | `src/data/profile.js` |
-| صورتي | حطي الصورة في `public/images/profile.jpg` |
-| الخبرات والتعليم | `src/data/experience.js` |
-| المهارات (كل مجموعة = تاب) | `src/data/skills.js` |
-| المشاريع | `src/data/projects.js` |
-| الخدمات | `src/data/services.js` |
-| الألوان والخطوط | أول الملف `src/styles/global.css` (المتغيرات في `:root`) |
-| شكل صفحة معينة | `src/pages/` (صفحة = ملف) |
+Then open http://localhost:5173.
 
-لإضافة مشروع: انسخي أي block في `projects.js` وغيّري القيم. مفيش حاجة تانية تتلمس.
+## Contact
 
-## النشر على Vercel
-1. ارفعي المشروع على GitHub (`git init`, `git add .`, `git commit`, `git push`).
-2. من vercel.com: Add New > Project > اختاري الريبو.
-3. Vercel هيتعرف على Vite لوحده (Build: `npm run build`, Output: `dist`). اضغطي Deploy.
-4. أي push بعد كده بيتنشر تلقائي. ملف `vercel.json` موجود عشان الصفحات تشتغل مع refresh.
+- Email: marmora000mm@gmail.com
+- LinkedIn: [maram-ahmed](https://www.linkedin.com/in/maram-ahmed-41b9aa312)
+- GitHub: [Mar-SHieee](https://github.com/Mar-SHieee)
